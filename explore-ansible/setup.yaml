@@ -1,0 +1,11 @@
+- name: Test playbook on cluster
+  hosts: node_cluster
+  become:  true
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+    - name: Install hop
+      apt:
+        name: htop
+        state: present

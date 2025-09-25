@@ -1,3 +1,5 @@
+Setup can be watch here: https://luxoft.udemy.com/course/learn-kubernetes/learn/lecture/9723310#overview
+
 # Prerequisites
 
 * Apple Silicon System (M1/M2/M3 etc)
