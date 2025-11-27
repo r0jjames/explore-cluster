@@ -1,0 +1,12 @@
+- 
+ name: Play1
+ hosts: node_cluster
+ tasks:
+   - name: Execute command date
+     command: date
+     register: date_result
+
+   - name: Save output to a file in a node
+     lineinfile:
+       path: /tmp/ansible_date_log.txt
+       line: "{{ date_result.stdout }}"

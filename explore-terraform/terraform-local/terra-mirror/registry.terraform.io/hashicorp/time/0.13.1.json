@@ -1,0 +1,10 @@
+{
+  "archives": {
+    "darwin_arm64": {
+      "hashes": [
+        "h1:ZT5ppCNIModqk3iOkVt5my8b8yBHmDpl663JtXAIRqM="
+      ],
+      "url": "terraform-provider-time_0.13.1_darwin_arm64.zip"
+    }
+  }
+}
